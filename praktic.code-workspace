@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../мобильная адоптация"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "praktic"
+	}
+}

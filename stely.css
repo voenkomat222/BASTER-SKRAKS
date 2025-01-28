@@ -1,0 +1,176 @@
+
+.logo {
+    width: 100px; /* Установите желаемую ширину */
+     border-radius: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 95vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+ul,li{
+list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    width: 25vw; /* Установите желаемую ширину */
+    justify-content: space-between;
+
+}
+
+
+main{
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav  ul li a{
+
+  background-color: white;
+  border-radius: 0px 0px 5px;
+  font-family: Arial;
+}
+
+
+.burgers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.burgers ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burgers_card{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    backdrop-filter: blur(5px);
+}
+
+main ul li img{
+    width: 150px;
+}
+
+
+.mobile-menu{
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 5px 10px blue,
+
+    opx -3px 10px purple
+}
+
+.mobile-menu img {
+    width: 30px;
+    filter: drop-shadow(0px 0px 1px white);
+}
+
+
+.mobile-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.503);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+
+#close-bth{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+header {
+    background-image: url('./img/Logo.png');
+    background-size: cover; /* или contain, в зависимости от желаемого эффекта */
+    background-position: center; /* центрирование изображения */
+    height: 200px; /* установите нужную высоту */
+    display: flex;
+    align-items: center; /* выравнивание по вертикали */
+    justify-content: center; /* выравнивание по горизонтали */
+}
+
+.burgers, .drinks {
+    background-image: url('./img/background.png'); /* Укажите путь к изображению */
+    background-size: cover; /* или contain, в зависимости от желаемого эффекта */
+    background-position: center; /* Центрирование изображения */
+    padding: 20px; /* Добавьте отступы для лучшего отображения */
+    border-radius: 10px; /* Закругление углов (по желанию) */
+    position: relative; /* Убедитесь, что позиционирование корректное */
+    z-index: 1; /* Установите z-index, если нужно, чтобы элемент был выше фона */
+}
+
+.drinks {
+    margin-top: 20px; /* Добавьте отступ сверху для разделения секций */
+}
+
+
+body {
+    color: yellow; /* Устанавливает желтый цвет текста для всего тела страницы */
+}
+
+h1, h2, h3, p {
+    color: yellow; /* Устанавливает желтый цвет текста для заголовков и параграфов */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Используйте выбранный шрифт */
+    color: yellow; /* Устанавливает желтый цвет текста для всего тела страницы */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Используйте выбранный шрифт */
+    color: yellow; /* Устанавливает желтый цвет текста для всего тела страницы */
+}
+
+@media screen and (max-width:431px){
+    main{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:431px) {
+   nav{
+    display: none;
+   } 
+}
+
