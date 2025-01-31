@@ -57,12 +57,16 @@ nav  ul li a{
     align-items: center;
     justify-content: center;
     min-height: 80vh;
+  
 }
 
 .burgers ul{
     display: flex;
     flex-wrap: wrap;
+    gap: 25px;
 }
+
+
 
 .burgers_card{
     width: 300px;
